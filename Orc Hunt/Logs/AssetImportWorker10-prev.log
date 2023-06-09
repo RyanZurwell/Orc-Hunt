@@ -1,0 +1,353 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32611 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+C:/Users/RyanZ/Documents/GitHub/Orc-Hunt/Orc Hunt
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+64646
+Successfully changed project path to: C:/Users/RyanZ/Documents/GitHub/Orc-Hunt/Orc Hunt
+C:/Users/RyanZ/Documents/GitHub/Orc-Hunt/Orc Hunt
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13496] Host "[IP] 128.217.226.126 [Port] 0 [Flags] 2 [Guid] 3767678642 [EditorId] 3767678642 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TBPDB4F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13496] Host "[IP] 128.217.226.126 [Port] 0 [Flags] 2 [Guid] 3767678642 [EditorId] 3767678642 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TBPDB4F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 194.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/RyanZ/Documents/GitHub/Orc-Hunt/Orc Hunt/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5979 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013246 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 137.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Domain Reload Profiling:
+	ReloadAssembly (994ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (702ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (137ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012733 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\RyanZ\Documents\GitHub\Orc-Hunt\Orc Hunt\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\RyanZ\Documents\GitHub\Orc-Hunt\Orc Hunt\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 161.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.898 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1899ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1559ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (957ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (162ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (583ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (229.5 KB). Loaded Objects now: 4187.
+Memory consumption went from 142.7 MB to 142.5 MB.
+Total: 4.932400 ms (FindLiveObjects: 0.433800 ms CreateObjectMapping: 0.372500 ms MarkObjects: 3.950400 ms  DeleteObjects: 0.174500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2167263.431705 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_1.asset
+  artifactKey: Guid(edca42dfbe1f202479a746f603923be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_1.asset using Guid(edca42dfbe1f202479a746f603923be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe55898b8e249b6c60222a51820ed5a6') in 0.088009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_24.asset
+  artifactKey: Guid(e3a654f3af97e6942b66a496d7f50910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_24.asset using Guid(e3a654f3af97e6942b66a496d7f50910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e266ccfccc2effc6e2abcf5a25c2fd') in 0.017647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_49.asset
+  artifactKey: Guid(7a2f611a7b18b5c40ad26684eaf2e2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_49.asset using Guid(7a2f611a7b18b5c40ad26684eaf2e2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b17b238f13991bdf069bd490daf997') in 0.014496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_34.asset
+  artifactKey: Guid(308909e858c2345419be177ecb10a332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_34.asset using Guid(308909e858c2345419be177ecb10a332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69b4e29d40b29cb946907e35035c4f5') in 0.015910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_45.asset
+  artifactKey: Guid(06bcb1b857aea3549becec46e09587c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_45.asset using Guid(06bcb1b857aea3549becec46e09587c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a03baebf7572443dbd860e8d5b7158a') in 0.015134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_59.asset
+  artifactKey: Guid(d7360c9a0fa4a3d409f17941aff79593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_59.asset using Guid(d7360c9a0fa4a3d409f17941aff79593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b827edf1745fa363ad8872440d0303') in 0.018406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_12.asset
+  artifactKey: Guid(faa505993f1c9d649822db0f49831bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_12.asset using Guid(faa505993f1c9d649822db0f49831bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2f3d2094f06d8ca35e0c82e653dc32') in 0.017165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_58.asset
+  artifactKey: Guid(c47f849271b24bc41b55e5c4c733d815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_58.asset using Guid(c47f849271b24bc41b55e5c4c733d815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445c9988cb5aa09f28e094c98324eb1f') in 0.019114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_40.asset
+  artifactKey: Guid(43af92e866299bc47958c1d574c07f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_40.asset using Guid(43af92e866299bc47958c1d574c07f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f177a496757d05338451b0c1789240') in 0.011564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_4.asset
+  artifactKey: Guid(aa8af3f0b691eae47ad913cc03554352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_4.asset using Guid(aa8af3f0b691eae47ad913cc03554352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332f89c9a88008132820000af8f71b07') in 0.007851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_54.asset
+  artifactKey: Guid(a067dcc3317ad9746b8bee8cc95af14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_54.asset using Guid(a067dcc3317ad9746b8bee8cc95af14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4597498b35a871a5d04cbf425d46adda') in 0.009657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_53.asset
+  artifactKey: Guid(494cc6247b4280d469c86d536652f6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_53.asset using Guid(494cc6247b4280d469c86d536652f6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0c202b630c30c90b4c1f3894222753') in 0.007737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_17.asset
+  artifactKey: Guid(de28b78c07caf9243b33271a3d3526e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_17.asset using Guid(de28b78c07caf9243b33271a3d3526e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ac9e4dbc486b3daecbd9be8be24ee3') in 0.009809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_33.asset
+  artifactKey: Guid(f06e5a6eb0ef262418ed20df5810dcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_33.asset using Guid(f06e5a6eb0ef262418ed20df5810dcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703c64593a2a3fde88cf8339b331aa67') in 0.014290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_55.asset
+  artifactKey: Guid(09e7bc2d1ddfb1b40b93debf438093d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_55.asset using Guid(09e7bc2d1ddfb1b40b93debf438093d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15499cfa65f5473e3f93667a441996f') in 0.011938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_26.asset
+  artifactKey: Guid(83f4a67ef35ffb84eb4a21cca6fc4927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_26.asset using Guid(83f4a67ef35ffb84eb4a21cca6fc4927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec28c3993b882100c6263a7d6048a01') in 0.018324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_2.asset
+  artifactKey: Guid(72d01fb03395c0f40b71bb9e2a8f1e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_2.asset using Guid(72d01fb03395c0f40b71bb9e2a8f1e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8e228b4cd058924dd9ccb74de5bc10') in 0.008207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_41.asset
+  artifactKey: Guid(751458b8fe27cae4080f12b7b108afac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_41.asset using Guid(751458b8fe27cae4080f12b7b108afac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1bda4357b5c71b1f50b3d9aeb603c2') in 0.013054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_29.asset
+  artifactKey: Guid(1b8ce225ef322724aa5a337c0c0ccf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_29.asset using Guid(1b8ce225ef322724aa5a337c0c0ccf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a229a35380739cb52dadb538342cc2b4') in 0.007312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_60.asset
+  artifactKey: Guid(5bbdb972c2255814f8818be895930081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_60.asset using Guid(5bbdb972c2255814f8818be895930081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a07f5c2b61a38f51e0876c83f4a2a8a') in 0.013950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_57.asset
+  artifactKey: Guid(32e4cd4fc8d92274aa3111837a8bc8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_57.asset using Guid(32e4cd4fc8d92274aa3111837a8bc8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3bbc5d1003453609ca53aaa0801919') in 0.013817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_30.asset
+  artifactKey: Guid(e35eb6ad21cb0a644b38564739d3beed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_30.asset using Guid(e35eb6ad21cb0a644b38564739d3beed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f43e74e17260e98c31125ba60db893a') in 0.015053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_20.asset
+  artifactKey: Guid(d6c7ad2bdbd38654c9e992455780ae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_20.asset using Guid(d6c7ad2bdbd38654c9e992455780ae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80eae334089c1fdcd5bd8b80b57c374f') in 0.008152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_36.asset
+  artifactKey: Guid(8caba0ae9f26206459ea4920c9102781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_36.asset using Guid(8caba0ae9f26206459ea4920c9102781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fd684c41c5f99480fb3386a77ce8f3') in 0.013542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_7.asset
+  artifactKey: Guid(ba23ae8d10039cd40aaa3607fb416f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_7.asset using Guid(ba23ae8d10039cd40aaa3607fb416f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1b6d5a3de1e52b318a1798daefc304') in 0.015324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_52.asset
+  artifactKey: Guid(7450e8023ae47a54a8ddb79245a63045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_52.asset using Guid(7450e8023ae47a54a8ddb79245a63045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57aeffd5ded68ae4b52374918767043c') in 0.008581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_19.asset
+  artifactKey: Guid(40776a124a018a840a15e2da85114dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_19.asset using Guid(40776a124a018a840a15e2da85114dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d30ccf39dfd819dbb8ec0ffab9d638') in 0.009851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_16.asset
+  artifactKey: Guid(40f4960f850cf8548b35c7627a0fff62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_16.asset using Guid(40f4960f850cf8548b35c7627a0fff62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf0b11d3df42a5e32a6bad30cb5776a') in 0.009696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_44.asset
+  artifactKey: Guid(6e2c47d7129459546b4855d67a50ae5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_44.asset using Guid(6e2c47d7129459546b4855d67a50ae5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c422115f40dc50baef34a87e397a7cb5') in 0.017181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_43.asset
+  artifactKey: Guid(cb736c7471fd1594bb4dec7857a80f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_43.asset using Guid(cb736c7471fd1594bb4dec7857a80f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bca1421b2226420a427ba7f5c052e16') in 0.008186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_35.asset
+  artifactKey: Guid(ae6b90aded066e3448af04f8c72892b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilesets/Forgotten Plains/Shadow Tiles/ForgottenPlainsPropsShadows_35.asset using Guid(ae6b90aded066e3448af04f8c72892b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf0e09dbab5b65b9492bc07493ee9d6') in 0.009010 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
