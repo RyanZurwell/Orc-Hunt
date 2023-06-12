@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class Actor : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [HideInInspector] public StateController myState;
+    [HideInInspector] public ActorData myData;
+    [HideInInspector] public StatList stats;
+
+    public virtual void Awake()
     {
-        
+        stats = (StatList)Resources.Load("Stat List");
     }
 
-    // Update is called once per frame
-    void Update()
+    public virtual void Start()
     {
-        
+        if (TryGetComponent<ActorData>(out ActorData data))
+        {
+            myData = data;
+        }
+
+        if (TryGetComponent<StateController>(out StateController stateController))
+        {
+            myState = stateController;
+        }
     }
 }

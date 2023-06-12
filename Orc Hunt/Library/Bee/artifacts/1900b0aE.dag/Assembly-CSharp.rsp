@@ -379,14 +379,18 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Actors/Actor.cs"
+"Assets/Scripts/Actors/ActorData.cs"
 "Assets/Scripts/Actors/Data Types/Stat.cs"
+"Assets/Scripts/Actors/Data Types/StatList.cs"
 "Assets/Scripts/Actors/Data Types/StatSheet.cs"
+"Assets/Scripts/Actors/Enemies/EnemyController.cs"
+"Assets/Scripts/Actors/Player/PlayerController.cs"
 "Assets/Scripts/Actors/State Controller/AttackingState.cs"
 "Assets/Scripts/Actors/State Controller/CrowdControlledState.cs"
+"Assets/Scripts/Actors/State Controller/IdleState.cs"
 "Assets/Scripts/Actors/State Controller/IState.cs"
 "Assets/Scripts/Actors/State Controller/MovingState.cs"
 "Assets/Scripts/Actors/State Controller/StateController.cs"
-"Assets/Scripts/Actors/Stats.cs"
 -langversion:9.0
 
 /deterministic
