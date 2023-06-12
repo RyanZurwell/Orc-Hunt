@@ -218,9 +218,9 @@ GameObject:
   - component: {fileID: 691330372}
   - component: {fileID: 691330371}
   - component: {fileID: 691330375}
+  - component: {fileID: 691330377}
   - component: {fileID: 691330373}
   - component: {fileID: 691330374}
-  - component: {fileID: 691330376}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -307,10 +307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d70615683999764f9e239118122cebe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myState: {fileID: 0}
-  myData: {fileID: 0}
+  player: {fileID: 0}
   stats: {fileID: 0}
-  rb: {fileID: 691330375}
 --- !u!114 &691330374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +343,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &691330376
+--- !u!114 &691330377
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -354,6 +352,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 691330370}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12849a1e730d7754995ebe239af38d32, type: 3}
+  m_Script: {fileID: 11500000, guid: 8f3a7f60c7e80934a8f3cdd3656d578f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data: {fileID: 0}

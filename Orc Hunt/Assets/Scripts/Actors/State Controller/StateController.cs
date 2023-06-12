@@ -1,32 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class StateController : MonoBehaviour
+public class StateController
 {
     public IState currentState;
 
-    public IdleState idleState = new IdleState();
-    public MovingState movingState = new MovingState();
-    public AttackingState attackingState = new AttackingState();
-    public CrowdControlledState crowdControlledState = new CrowdControlledState();
-
-    private void Start()
+    public void StartingState(IState startState, GameObject owner)
     {
-        currentState = idleState;
+        currentState = startState;
+        currentState.SetOwner(owner);
+        currentState.OnEnter();
     }
 
-    private void Update()
-    {
-        currentState.OnUpdate();
-
-        if (Input.GetKeyDown(KeyCode.Q)) ChangeState(crowdControlledState);
-    }
-
-    public void ChangeState(IState newState)
+    public void ChangeState(IState newState, GameObject owner)
     {
         currentState.OnExit();
         currentState = newState;
+        currentState.SetOwner(owner);
         currentState.OnEnter();
     }
 }

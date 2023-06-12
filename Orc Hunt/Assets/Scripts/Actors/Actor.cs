@@ -4,25 +4,19 @@ using UnityEngine;
 
 public class Actor : MonoBehaviour
 {
-    [HideInInspector] public StateController myState;
-    [HideInInspector] public ActorData myData;
-    [HideInInspector] public StatList stats;
-
-    public virtual void Awake()
-    {
-        stats = (StatList)Resources.Load("Stat List");
-    }
+    [HideInInspector] public ActorData data;
 
     public virtual void Start()
     {
-        if (TryGetComponent<ActorData>(out ActorData data))
-        {
-            myData = data;
-        }
+        GetActorData();
+    }
 
-        if (TryGetComponent<StateController>(out StateController stateController))
+    public virtual void GetActorData()
+    {
+        if (TryGetComponent<ActorData>(out ActorData _data))
         {
-            myState = stateController;
+            data = _data;
         }
+        else return;
     }
 }

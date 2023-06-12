@@ -1,16 +1,27 @@
+using UnityEngine;
+
 public class IdleState : IState
 {
-    public virtual void OnEnter()
+    private GameObject owner;
+
+    public void SetOwner(GameObject _owner) => owner = _owner;
+
+    public void OnEnter()
     {
 
     }
 
-    public virtual void OnUpdate()
+    public void OnUpdate()
     {
 
     }
 
-    public virtual void OnExit()
+    public void OnFixedUpdate()
+    {
+
+    }
+
+    public void OnExit()
     {
 
     }
