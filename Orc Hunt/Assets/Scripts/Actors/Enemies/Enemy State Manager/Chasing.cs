@@ -15,10 +15,18 @@ public class Chasing : BaseActorState
             Debug.LogError("Could not find the controller");
             state.ChangeState(state.idle);
         }
+
+        owner.GetComponent<AnimationManager>().PlayMovingAnimation();
     }
 
     public override void OnUpdate()
     {
         controller.SetDestination(controller.target.transform.position);
+    }
+
+    public override void OnExit()
+    {
+        base.OnExit();
+        owner.GetComponent<AnimationManager>().StopMovingAnimation();
     }
 }

@@ -8,7 +8,7 @@ public class StatManager : MonoBehaviour
 
     public Dictionary<Stat, float> stats = new Dictionary<Stat, float>();
 
-    private void Start()
+    private void Awake()
     {
         CreateStats();
     }

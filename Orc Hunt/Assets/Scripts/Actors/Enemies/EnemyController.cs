@@ -15,7 +15,12 @@ public class EnemyController : EnemyComponent
         agent.updateRotation = false;
         agent.updateUpAxis = false;
 
-        if (target != null) myState.ChangeState(myState.chasing);
+        agent.speed = myStats[stat.movementSpeed];
+    }
+
+    private void Update()
+    {
+        if (myState.currentState == myState.idle && target != null) myState.ChangeState(myState.chasing);
     }
 
     public void SetDestination(Vector3 destination)

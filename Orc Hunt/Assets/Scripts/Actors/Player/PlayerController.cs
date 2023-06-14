@@ -8,9 +8,13 @@ public class PlayerController : PlayerComponent
 
     private void Update()
     {
-        if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
+        if ((Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0) && myState.currentState != myState.moving)
         {
             myState.ChangeState(myState.moving);
+        }
+        else if((Input.GetAxisRaw("Horizontal") == 0 && Input.GetAxisRaw("Vertical") == 0) && myState.currentState == myState.moving)
+        {
+            myState.ChangeState(myState.idle);
         }
     }
 

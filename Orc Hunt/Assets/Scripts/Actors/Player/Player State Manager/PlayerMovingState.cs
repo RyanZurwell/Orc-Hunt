@@ -16,10 +16,18 @@ public class PlayerMovingState : MovingState
             Debug.LogError("Could not find the player controller.");
             state.ChangeState(state.idle);
         }
+
+        owner.GetComponent<AnimationManager>().PlayMovingAnimation();
     }
 
     public override void OnFixedUpdate()
     {
         controller.Moving();
+    }
+
+    public override void OnExit()
+    {
+        base.OnExit();
+        owner.GetComponent<AnimationManager>().StopMovingAnimation();
     }
 }
