@@ -4,8 +4,21 @@ using UnityEngine;
 
 public class PlayerController : PlayerComponent
 {
-    private void FixedUpdate()
+    [SerializeField] private Rigidbody2D rb;
+
+    private void Update()
     {
-        if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0) player.stateController.ChangeState(player.stateController.movingState, gameObject);
+        if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
+        {
+            myState.ChangeState(myState.moving);
+        }
+    }
+
+    public void Moving()
+    {
+        Vector3 moveDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        moveDir.Normalize();
+
+        rb.MovePosition(transform.position + moveDir * myStats[stat.movementSpeed] * Time.deltaTime);
     }
 }

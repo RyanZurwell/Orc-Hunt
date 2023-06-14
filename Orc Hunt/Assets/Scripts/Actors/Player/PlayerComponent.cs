@@ -2,18 +2,41 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerComponent : MonoBehaviour
+public class PlayerComponent : ActorComponent
 {
-    public Player player;
-    public StatList stats;
+    [HideInInspector] public PlayerStateManager myState;
+    [HideInInspector] public PlayerController myController;
 
-    private void Awake()
+    public override void Initialize()
     {
-        stats = (StatList)Resources.Load("Stat List");
+        base.Initialize();
+        GetPlayerStateManager();
+        GetPlayerController();
     }
 
-    private void Start()
+    private void GetPlayerStateManager()
     {
-        player = GetComponent<Player>();
+        if (TryGetComponent<PlayerStateManager>(out PlayerStateManager _stateManager))
+        {
+            myState = _stateManager;
+        }
+        else
+        {
+            Debug.LogError("Could not find the state manager.");
+            return;
+        }
+    }
+
+    private void GetPlayerController()
+    {
+        if (TryGetComponent<PlayerController>(out PlayerController _controller))
+        {
+            myController = _controller;
+        }
+        else
+        {
+            Debug.LogError("Could not find the player controller.");
+            return;
+        }
     }
 }
