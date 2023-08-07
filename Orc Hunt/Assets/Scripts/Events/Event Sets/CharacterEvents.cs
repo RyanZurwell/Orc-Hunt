@@ -7,5 +7,4 @@ public class CharacterEvents
 
     public StateMachineEvents state = new StateMachineEvents();
     public StatEvents stats = new StatEvents();
-    public CombatEvents combat = new CombatEvents();
 }

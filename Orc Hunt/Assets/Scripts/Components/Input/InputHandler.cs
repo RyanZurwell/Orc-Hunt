@@ -19,6 +19,9 @@ public class InputHandler : EntityComponent
     private void Update()
     {
         CheckMovementInput();
+
+        if (Input.GetKeyDown(KeyCode.Q)) data.IncreaseStat(Stats.experience, 10);
+        if (Input.GetKeyDown(KeyCode.E)) data.DecreaseStat(Stats.experience, 10);
     }
 
     ////////////////////////////////////////////////
